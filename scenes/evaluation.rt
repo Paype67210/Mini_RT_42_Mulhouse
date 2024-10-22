@@ -1,0 +1,39 @@
+#	RESOLUTION (OPTIONNAL)
+#	WIDTH				#	HEIGHT				#
+R	800					450
+
+
+#	AMBIANT LIGHTNING
+#	RATIO [0.0,1.0]		#	RGB COLORS			#
+A	0.5					130,130,130
+
+
+#	CAMERA
+#	COORDOS			   	#	VECT3 Norm [-1,1]	#	FOV H		#
+C	0,0,-1500			0,0,1 	    		    90
+
+
+#	LIGHT
+#	COORDOS			    #	BRIGHTNESS RATIO	#	RGB COLORS	#
+L   3000,900,-1500		0.5						255,0,255
+
+
+#	PLANE
+#	COORDOS				#	VECT3 Norm [-1,1]	#	RGB COLORS	#
+pl	0,0,200				0,0,1					165,52,65
+
+
+#	SPHERE
+#   COORDOS			    #	DIAMETER			#	RGB COLORS	#
+sp	0,0,0				100			   			255,0,0
+sp	0,0,0				150						0,0,255
+
+
+#	CYLINDER
+#	COORDOS				#	VECT3 Norm [-1,1]	#	DIAMETER	#	HEIGHT	#	RGB COLORS	#
+cy	300,0,200			0,1,0					100				300			10,128,255
+
+
+#	CONE
+#	COORDOS				#	VECT3 Norm [-1,1]	#	DIAM BASE	#	HEIGHT	#	RGB COLORS	#
+# co	0,0,1000			1,0.2,1					100				200			128,0,128
